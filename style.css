@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Zaglavlje i navigacija */
+header {
+    background-color: #ff9800;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+
+/* Glavni sadržaj */
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
+.content p{
+    font-size: 30px;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1px;
+}
+
+#map-container {
+    text-align: center;
+    margin-right: 0px;
+    bottom: 20px;
+    right: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    min-width: 250px;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .container {
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    
+    .lista {
+    width: 90%;
+     /* Stops it from floating */
+    margin: auto; /* Ensures that it is centered */
+    margin-bottom: 25px; /* Space between the stacked elements */
+      
+    }
+}
+
+
+
+section {
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+  }
+
+.container {
+    display: flex;
+    gap: 10px; /* Adds space between divs */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+
+
+  .lista{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+
+
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #ff9800; 
+    left: 0;
+}
+.dropdown-content a {
+    color: black;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hero h2{
+    color: #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero a{
+    color: #ffffff;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:60px;
+}
+
+.nav-logo img{
+    max-width: 50px;
+    position: left;
+}
+
+
+
+
+
+
+
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
